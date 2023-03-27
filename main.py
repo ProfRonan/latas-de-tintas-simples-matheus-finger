@@ -9,6 +9,8 @@ qtd = litros // 18
 if litros % 18 > 0:
     qtd += 1
 valor = qtd * 80
+qtd = int(qtd)
+valor = int(valor)
 
 # As duas variáveis qtd_de_latas e valor_total devem guardar a resposta do problema
 # Troque os zeros pelos valores corretos.
